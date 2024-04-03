@@ -1,35 +1,91 @@
 <!DOCTYPE html>
 <html>
-  <head>
-	<title>搜读网 - 只读你喜欢</title>
-    <meta charset="utf-8" />
-	<meta name="keywords" content="搜读网" />
-	<meta name="description" content="搜读网，给你不一样的精彩。为程序员而生的搜索引擎。" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>搜读 - 让你阅读不一样的精彩</title>
+	<meta name="keywords" content="搜读，搜读网，搜读APP" />
+	<meta name="description" content="搜读网，用你的声音讲述别人的故事，让你阅读不一样的精彩。" />
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/index.css" />
-  </head>
-  <body>
-  	<div class="container">
-  		<div class="page-header text-center">
-		   <h1>只读你喜欢</h1><br/><br/>
+	<link rel="shortcut icon" href="/resources/favicon.png">
+	<style>
+		body {
+			background-image: url(./resources/bg-img.jpg);
+			background-attachment: fixed;
+			background-position: center top;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+
+		.container {
+			width: 100%;
+			height: 80%;
+			margin: 0;
+			padding: 0;
+		}
+
+		.page-header {	
+			color: #fff;
+			border: none !important;
+			margin-top: 15%;
+			text-align: center;
+		}
+
+		#footer {
+			width: 100%;
+			height: 10%;
+			position: fixed;
+			line-height: auto;
+			text-align: center;
+			color: #B1B1B1;
+			font-weight: bold;
+			margin: 0;
+			padding: 0;
+			bottom: 0;
+		}
+
+		a:link,
+		a:visited {
+			color: #B1B1B1;
+			font-weight: bold;
+		}
+
+		a:hover,
+		a:active {
+			color: #fff;
+		}
+
+		.friendlinks {
+			color: #fff;
+			margin-right: 6px;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="container">
+		<div class="page-header">
+			<h1 >阅读不一样的精彩</h1>
 		</div>
-		<form action="result.html" method="get">
-			<div class="input-group col-lg-6 col-md-offset-3">
-		      <input type="text" class="form-control" placeholder="输入关键字搜一下，有惊喜喔" autofocus="autofocus" required="required" name="q" maxlength="60"/>
-		      <span class="input-group-btn">
-		        <button class="btn btn-default" type="submit">Yes I Do</button>
-		      </span>
-		    </div>
+		<form action="#" method="get">
+			<div class="input-group col-lg-4 col-lg-offset-4">
+				<input type="text" class="form-control" placeholder="遇事不决..." required="required" name="q"
+					maxlength="60" />
+				<span class="input-group-btn">
+					<button class="btn btn-default" type="submit">搜的一下</button>
+				</span>
+			</div>
 		</form>
 	</div>
 	<div id="footer">
-		<div id="left">
-			<a href="http://shuoit.net" target="_blank">说IT</a>
-		</div>
-		<div id="right">
-			Copyright ©  <a href="http://www.readseek.com" title="搜读网" rel="author">搜读网</a>
-		</div>
+		友情链接：
+		<span class="friendlinks">
+			<a href="https://readseek.com" title="搜读网" rel="author">搜读</a>
+		</span>
+		<span class="friendlinks">
+			<a href="https://thomartisen.com/" target="_blank">托码特人</a>
+		</span>
 	</div>
-  </body>
+</body>
+
 </html>
